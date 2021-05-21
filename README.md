@@ -6,4 +6,7 @@ Executing MAIN.py training is executed. You just have to change the paths to you
 
 ## Inference
 Executing INFERENCE_SYNTHESIS.py you will generate samples you define inside the script. Remember to also change paths where to save your WAV clips.
-Note that WaveGlow model is included, which is cloned from the NVIDIA repository (https://github.com/NVIDIA/waveglow).
+Note that WaveGlow model was used to synthesize our samples, you can clone it from the NVIDIA repository (https://github.com/NVIDIA/waveglow).
+
+## Audio samples
+In the folder /example_wavs you can find synthesized clips emphasizing each token over different samples for comparison. 
